@@ -1,4 +1,4 @@
-set PATH=C:\Py3\Scripts;%PATH%
+set PATH=C:\Python310\Scripts;%PATH%
 
 rmdir build /s /q
 

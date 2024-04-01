@@ -21,7 +21,7 @@ def format_function(name, keywords, html):
     print()
 
 def html2rst(html):
-    p = subprocess.Popen(["C:\\Users\\Aivar\\AppData\\Local\\Pandoc\\pandoc.exe", "--from", "html", "--to", "rst"], 
+    p = subprocess.Popen(["F:\\tools\\anaconda3\\Scripts\\pandoc.exe", "--from", "html", "--to", "rst"], 
                          stdin=subprocess.PIPE, stdout=subprocess.PIPE, stderr=subprocess.PIPE,
                          shell=False, universal_newlines=True,
                          encoding="UTF-8")
